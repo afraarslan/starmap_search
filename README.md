@@ -13,5 +13,17 @@ It takes two input:
 The output is followed:
 * If it finds the match:
 
+It says 'found enough match' and returns the angle and the corner points of the small image onto Star Map. 
+
+![](https://github.com/afraarslan/starmap_search/blob/master/screenshots/corner-points.png)
+
+![](https://github.com/afraarslan/starmap_search/blob/master/screenshots/matched.png)
+
 * If there is no match:
+
+It says 'Not enough match found'
+
+![](https://github.com/afraarslan/starmap_search/blob/master/screenshots/not-found.png)
+
+![](https://github.com/afraarslan/starmap_search/blob/master/screenshots/not-matched.png)
 
