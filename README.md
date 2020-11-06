@@ -31,6 +31,6 @@ It says **'Not enough match found'**
 
 * NumPy
 * OpenCV
-* matplotlib.pyplot
+* matplotlib
 * math
 * argparse
