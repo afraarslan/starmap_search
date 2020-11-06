@@ -39,7 +39,7 @@ def find_corner_points(good, keypoints1, keypoints2, small_img, starmap_img):
     h, w = small_img.shape
     pts = np.float32([[0, 0], [0, h - 1], [w - 1, h - 1], [w - 1, 0]]).reshape(-1, 1, 2)
     dst = cv.perspectiveTransform(pts, M)
-    angle = - math.atan2(M[1, 0], M[0, 0]) * 180 / math.pi
+    angle = math.atan2(M[1, 0], M[0, 0])
     print("Rotation angle ", angle)
     print("Corner points of small image onto StarMap ")
     print(np.int32(dst))
